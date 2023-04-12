@@ -6,6 +6,7 @@ import HeroImage from '../../../public/assets/img/HeroImage/taxi-image.jfif'
 import FeaturedVehicles from '../FeaturedVehicles'
 import ServiceSection from '../SeviceSection'
 import FacilitySection from '../FacilitySection'
+import FormSection from '../FormSection'
 
 function HeroSection() {
   return (
@@ -26,12 +27,9 @@ function HeroSection() {
       <div className='featured-vehicles-container'>
         <FeaturedVehicles />
       </div>
-      <div className='service-section-container'>
         <ServiceSection />
-      </div>
-      <div className='facility-container'>
         <FacilitySection />
-      </div>
+        <FormSection />
     </div>
   )
 }
