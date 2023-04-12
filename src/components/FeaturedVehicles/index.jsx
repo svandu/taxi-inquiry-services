@@ -4,7 +4,7 @@ import './featuredvehicles.css'
 function FeaturedVehicles() {
     const featuredVehiclesDetails = [
         {
-            img: './public/assets/img/CardImage/taxi-1.png',
+            img: '../../../public/assets/img/CardImage/taxi-1.png',
             para: "2015 Volkaswagen Polo 6R MY16",
             price: "$17,490",
             details: "Drive Away"
