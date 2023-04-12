@@ -1,0 +1,45 @@
+.footer-main-container {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact-links {
+    color:  #EBB02D;
+    cursor: pointer;
+}
+
+.contact-us-section p{
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.footer-links .our-links {
+    font-size: 1.2em;
+}
+
+.footer-links ul li{
+    padding-top: 1rem;
+}
+
+.social-media-links {
+    margin-left: 20px;
+}
+
+.social-media-links ul {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 150px 0 0 40px
+}
+
+.social-media-links ul li svg {
+    margin-left: 15px;
+    width: 35px;
+}
