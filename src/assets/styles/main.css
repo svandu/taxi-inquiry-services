@@ -1,0 +1,29 @@
+.root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    background-color: #EBB02D;
+    transition: 3ms;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 0.9rem 1.5rem;
+}

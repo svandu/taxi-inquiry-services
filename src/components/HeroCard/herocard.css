@@ -1,0 +1,24 @@
+.hero-card-main-container {
+    background-color: #000000;
+    color: #fff;
+    /* width: 100%; */
+    /* height: 70%; */
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 0 14rem;
+}
+
+.details-para {
+    font-size: 2em;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.up-para {
+    font-size: 2.8em;
+    color: #EBB02D;
+}

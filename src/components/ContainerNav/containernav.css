@@ -1,0 +1,27 @@
+.nav-main-container {
+    /* height: 4rem; */
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+
+.nav-link-sec {
+    display: flex;
+}
+
+.nav-links ul{
+    display: flex;
+    font-size: 1em;
+}
+
+ul li {
+    margin-top: 0.8rem;
+    padding: 0 1.5rem;
+}
+
+a:hover {
+    color: #EBB02D;
+    transition: 0.1s;
+    font-size: 1.1em;
+    cursor: pointer;
+}
