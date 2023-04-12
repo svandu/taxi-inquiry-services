@@ -1,0 +1,52 @@
+.featured-vehicles-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vehicles-para {
+    font-size: 3em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 280px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 250px;
+    height: 150px;
+}
+
+.card-content {
+    color: #000;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    padding: 1rem 0.8rem;
+}
+
+.card-content .card-price{
+    margin-top: 1rem;
+    color: rgb(0, 149, 255);
+}
+
+.card-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    background-color: #EBB02D;
+    transition: 3ms;
+    cursor: pointer;
+}
+

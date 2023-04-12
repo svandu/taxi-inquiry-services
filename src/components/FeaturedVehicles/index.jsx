@@ -10,7 +10,7 @@ function FeaturedVehicles() {
             details: "Drive Away"
         },
         {
-            img: './public/assets/img/CardImage/taxi-2.jfif',
+            img: './public/assets/img/CardImage/taxi-2.png',
             para: "2016Volkswagen Golf AU MY16",
             price: "Please Call",
             details: "For Price",
@@ -28,14 +28,25 @@ function FeaturedVehicles() {
             details: "Drive Away"
         }
     ]
+
   return (
     <div className='featured-vehicles-main-container'>
-        {featuredVehiclesDetails.map((singleDetails, i) => (
-            <div className='card'>
-                <img src={singleDetails.img} />
-                <p>{singleDetails.para}</p>
-            </div>
-        ))}
+        <p className='vehicles-para'>
+            Choose your ride.
+        </p>
+        <div className='cards'>
+            {featuredVehiclesDetails.map((singleDetails, i) => (
+                    <div className='card'>
+                        <img src={singleDetails.img} />
+                        <div className='card-content'>
+                            <p className='card-para'>{singleDetails.para}</p>
+                            <p className='card-price'>{singleDetails.price}</p>
+                            <p className='card-details'>{singleDetails.details}</p>
+                            <button className='card-button'>View More Details</button>
+                        </div>
+                    </div>
+                ))}
+        </div>
     </div>
   )
 }
