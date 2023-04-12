@@ -1,10 +1,11 @@
 import React from 'react'
 import './featuredvehicles.css'
+import TaxiOne from '../../../public/assets/img/CardImage/taxi-1.png';
 
 function FeaturedVehicles() {
     const featuredVehiclesDetails = [
         {
-            img: '../../../public/assets/img/CardImage/taxi-1.png',
+            img: TaxiOne,
             para: "2015 Volkaswagen Polo 6R MY16",
             price: "$17,490",
             details: "Drive Away"
