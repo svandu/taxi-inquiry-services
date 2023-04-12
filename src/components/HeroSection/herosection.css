@@ -53,3 +53,23 @@
     position: absolute;
     top: 80%;
 }
+
+.featured-vehicles-container {
+    margin-top: 8rem;
+}
+
+
+.book-now {
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    background-color: #EBB02D;
+    transition: 3ms;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    padding: 0.9rem 1.5rem;
+}
