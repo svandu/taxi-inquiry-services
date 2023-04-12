@@ -7,6 +7,7 @@ import FeaturedVehicles from '../FeaturedVehicles'
 import ServiceSection from '../SeviceSection'
 import FacilitySection from '../FacilitySection'
 import FormSection from '../FormSection'
+import Footer from '../Footer'
 
 function HeroSection() {
   return (
@@ -30,6 +31,7 @@ function HeroSection() {
         <ServiceSection />
         <FacilitySection />
         <FormSection />
+        <Footer />
     </div>
   )
 }
